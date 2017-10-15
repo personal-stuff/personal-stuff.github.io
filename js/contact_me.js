@@ -29,7 +29,7 @@ $(function() {
                     email: email,
                     message: message
                 },
-                dataType: "json"
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Enable button & show success message
